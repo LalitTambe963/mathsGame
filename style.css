@@ -1,0 +1,219 @@
+body{
+	margin:0;
+	height: 100%;
+	background: radial-gradient(circle,#fff,#ccc);
+
+}
+
+#header{
+	width: 100%;
+	height:80px;
+	line-height: 80px;
+	color: white;
+	background: linear-gradient(#f6a5ff,#e62dff);
+	font-family:verdana;
+	border-bottom: 2px black solid;
+
+}
+#greetings{
+	width: 20%;
+	text-align: center;
+	clear:left;
+	margin: 0 auto;
+}
+#header #greetings h2{
+	margin: 0;
+}
+#creator{
+	margin: 0 30px;
+	float: right;
+}
+
+#mainBox{
+	width: 350px;
+	height: 420px;
+	margin: 30px auto;
+	background-color: white;
+	border-radius: 3%;
+	padding: 30px 50px;
+	background-color: #8fbfd3;
+	box-shadow: 0px 10px 14px 3px;
+}
+
+#scoreBoard{
+
+	float: right;
+	background-color: #a9ed9c;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: Arial;
+	box-shadow: 0px 2px 1px 1px;
+}
+
+#expression{
+	background-color: #df77ff;
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 700%;
+	font-weight: 100;
+	font-family: Arial;
+	box-shadow: 0px 3px 3px 1px;
+
+}
+#instruction{
+	width: 100%;
+	height: 40px;
+	background-color: #a977ff;
+	margin: 10px auto;
+	line-height: 40px;
+	text-align: center;
+	font-family: Arial;
+	border-radius: 5px;
+	box-shadow: 0px 3px 3px 1px;
+}
+
+#options{
+	width: 100%;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+
+	
+
+}
+.box{
+	float: left;
+	width: 20%;
+	height: 100%;
+	background-color: #e2e2e2;
+	margin-left: 6.66%;
+	text-align: center;
+	line-height: 80px;
+	font-size: 30px;
+	font-weight: 100;
+	font-family: Arial;
+	border-radius: 10%;
+	box-shadow: 0px 3px 3px 1px;
+	/*border: 1px #df77ff solid;*/
+}
+.box:hover{
+	background-color: #DF77FF;
+}
+
+#option1{
+	margin-left: 0;
+}
+
+.buttons{
+	width: 20%;
+	height: 40px;
+	border-radius: 5px;
+}
+#start{
+	background: #d4d858;
+	margin: 30px 40%;
+	box-shadow: 0px 3px 3px 1px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	
+	
+}
+#reset{
+	width: 30%;
+	background: #ed9b5c;
+	margin-top: 40px;
+	float: left;
+	display: none;
+	box-shadow: 0px 3px 3px 1px;
+	letter-spacing: 1px;
+	font-weight: bold;
+
+}
+
+
+#time{
+	width: 30%;
+	height: 40px;
+	margin-top: 40px;
+	background-color: #ddcf4d;
+	font-size: 15px;
+	font-family: Arial;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	line-height: 40px;
+	text-align:center;
+	float: right;
+	display: none;
+	box-shadow: 0px 3px 3px 1px;
+	
+}
+
+#timeOver{
+	position: absolute;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30%;
+	background-color: #ff911c;
+	text-align: center;
+	top: 30%;
+	/*left: 50%;*/
+	border-radius: 5px;
+	box-shadow: 0px 10px 14px 3px;
+	font-family: Arial;
+	font-size: 30px;
+	background: linear-gradient(#E4F2B9, #B7E953);
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
